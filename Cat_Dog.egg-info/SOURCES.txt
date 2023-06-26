@@ -1,0 +1,5 @@
+setup.py
+Cat_Dog.egg-info/PKG-INFO
+Cat_Dog.egg-info/SOURCES.txt
+Cat_Dog.egg-info/dependency_links.txt
+Cat_Dog.egg-info/top_level.txt

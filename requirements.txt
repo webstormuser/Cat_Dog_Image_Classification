@@ -1,0 +1,7 @@
+Flask
+Flask-Cors 
+numpy>=1.19.5,<1.24
+Pillow
+tensorflow
+streamlit
+-e .
