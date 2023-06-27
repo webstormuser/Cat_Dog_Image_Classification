@@ -1,12 +1,9 @@
 import base64
 
-
-def decodeImage(imgstring, fileName):
-    imgdata = base64.b64decode(imgstring)
-    with open(fileName, 'wb') as f:
+def decodeImage(uploaded_file, filename):
+    imgdata = base64.b64decode(uploaded_file)
+    with open(filename, 'wb') as f:
         f.write(imgdata)
-        f.close()
-
 
 def encodeImageIntoBase64(croppedImagePath):
     with open(croppedImagePath, "rb") as f:
